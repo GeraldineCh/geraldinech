@@ -1,0 +1,103 @@
+body, html {
+	background-color: #EDEDED !important;
+}
+/*Clases Heredables*/
+.text-uppercase {
+	text-transform: uppercase;
+}
+.text-secondary {
+	color: #FFFFFF;
+}
+.text-primary {
+	color: #000000;
+}
+section {
+	padding-bottom: 6rem;
+	padding-top: 3.5rem;
+}
+.section-title{
+	padding-bottom: 1rem;
+}
+.section-title h6{
+	padding-bottom: 0.25rem;
+	padding-top: 0.25rem;
+}
+.section-title hr {
+	width: 3rem;
+}
+/*HEADER*/
+header {
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 650px;
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
+}
+header h6{
+	background-color: #FFFFFF;
+	padding: 1rem;
+}
+/*SECCIÓN ABOUT ME*/
+
+.responsive-img {
+    max-width: 75% !important;
+}
+
+.about-me .container{
+	padding-top: 3.5rem;
+}
+.about-me .section-body h6{
+	margin-bottom: 3rem;
+}
+.about-me .profile {
+	padding-top: 24px;
+}
+/*SECCIÓN PORTFOLIO*/
+.portfolio {
+	background-color: #FFFFFF;
+}
+.portfolio .container-img {
+	padding: 0;
+}
+.portfolio .container-img img{
+	width: 100%;
+}
+/*SECCIÓN CONTACT*/
+.contact #info .row{
+	padding-left: 2.5rem;
+}
+/*MEDIA QUERY*/
+@media (min-width: 0){
+	header {
+		background-position-x: -255px;
+		background-size: 1412px;
+	}
+	header .name{
+		font-size: 3.5rem;
+	}
+	.portfolio .container-img img{
+		height: 80px;
+	}
+	.contact #info{
+		margin-top: 4rem;
+	}
+}
+@media (min-width: 992px), (min-width: 1200px) {
+	header {
+		background-position: center;
+		background-size: cover;
+	}
+	header .name{
+		font-size: 4rem;
+	}
+	.portfolio .container-img img{
+		height: 200px;
+	}
+	.contact #info{
+		margin-top: 0;
+	}
+}
