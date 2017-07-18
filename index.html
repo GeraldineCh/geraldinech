@@ -1,172 +1,697 @@
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-    <body class="text-primary">
-      <header class="text-uppercase">
-        <div class="row text-secondary">
-          <div class="col s12 m12 l12">
-            <h1 class="name center-align flow-text"><strong>Geraldine Chauca</strong></h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s12 m12 l12">
-            <h6 class="center-align">Front End Developer</h6>
-          </div>
-        </div>
-      </header>
-      <main>
-        <section class="about-me">
-          <div class="container">
-            <div class="section-title row text-uppercase">
-              <div class="col s12 m12 l12">
-                <h5 class="center-align">about me</h5>
-                <h6 class="center-align">Un poco de mi</h6>
-                <hr class="center-align">
-              </div>
-            </div>
-            <div class="section-body row">
-              <div class="col s12 m4 l4">
-                  <h6 class="center-align text-uppercase">Reseña</h6>
-                  <p>
-                    Soy desarrolladora Front End, egresada del bootcamp de Laboratoria. Mi enfoque principal es adaptar y crear productos digitales.
-                  </p>
-                  <p>
-                    Aparte de gustarme el código, también soy diseñadora. La organización de elementos visuales y la armonía a ojos del usuario  es un punto que tomo como prioridad al diseñar.
-                  </p>
-              </div>
-              <div class="col s12 m4 l4">
-                <h6 class="center-align text-uppercase">profile</h6>
-                <div class="card blue-grey darken-1">
-                  <div class="profile center-align">
-                    <img src="img/profile.png" class="circle responsive-img">
-                  </div>
-                  <div class="card-content center-align text-secondary">
-                    <p>
-                      Egresada del Bootcamp de Laboratoria como Front End Developer Jr. el 2017 y titulada en Diseño Gráfico el 2015.
-                    </p>
-                  </div>
-                  <div class="card-action center-align">
-                    <a href="https://twitter.com/geral_din02">Twitter</a>
-                    <a href="https://github.com/GeraldineCh">Github</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col s12 m4 l4">
-                <h6 class="center-align text-uppercase">Current Skills</h6>
-                <div class="">
-                  <ul class="collapsible" data-collapsible="accordion">
-                    <li>
-                      <div class="collapsible-header">Front End Developer Jr.</div>
-                      <div class="collapsible-body"><span>Desarrollo de sitios web</span></div>
-                    </li>
-                    <li>
-                      <div class="collapsible-header">Diseño</div>
-                      <div class="collapsible-body"><span>Conocimiento de disposición visual y manejo de paleta cromática.</span></div>
-                    </li>
-                    <li>
-                      <div class="collapsible-header">Diagramación</div>
-                      <div class="collapsible-body"><span>A través de Indesign puedo disponer del contenido para maquetación de cualquier publicación: libro, folleto, revista y similares.</span></div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="portfolio">
-          <div class="container">
-           <div class="section-title row text-uppercase">
-             <div class="col s12 m12 l12">
-               <h5 class="center-align">portfolio</h5>
-               <h6 class="center-align">Algunos proyectos</h6>
-               <hr class="center-align">
-             </div>
-           </div>
-           <div class="row center align">
-             <div class="col s12 m12 l12">
-               <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/desk-book.jpg"></div>
-               <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/consola.jpg"></div>
-               <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/code.jpg"></div>
-             </div>
-             <div class="col s12 m12 l12">
-               <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/girl-code.jpg"></div>
-               <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/desk-code.jpg"></div>
-               <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/img-1.jpg"></div>
-             </div>
-           </div>
-          </div>
-        </section>
-        <section class="contact">
-          <div class="container">
-            <div class="section-title row text-uppercase">
-              <div class="col s12 m12 l12">
-                <h5 class="center-align">contact</h5>
-                <h6 class="center-align">Entablemos comunicación</h6>
-                <hr class="center-align">
-              </div>
-            </div>
-            <div class="section-body row">
-              <form id="formulario" class="input-field col s12 m6 l6">
-                <div class="row">
-                  <div class="input-field col s6 m6 l6">
-                    <input id="first_name" type="text" class="validate" required="" >
-                    <label for="first_name">First Name</label>
-                  </div>
-                  <div class="input-field col s6 m6 l6">
-                    <input id="last_name" type="text" class="validate" required="">
-                    <label for="last_name">Last Name</label>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12 m12 l12">
-                    <input id="email" type="email" class="validate" required="">
-                    <label for="email">E-mail</label>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12 m12 l12">
-                    <textarea id="textarea1" class="materialize-textarea"></textarea>
-                    <label for="textarea1">Your Message</label>
-                  </div>
-                </div>
-                <button class="btn waves-effect waves-light" type="submit" name="action">SUBMIT</button>
-              </form>
-              <div id="info" class="col s12 m6 l6">
-                <div class="row">
-                  <h6>DIRECCIÓN</h6>
-                  <p>Calle Los Nardos 250 S.M.P.</p>
-                </div>
-                <div class="row">
-                  <h6>CELULAR</h6>
-                  <p>+51 980551978</p>
-                </div>
-                <div class="row">
-                  <h6>WEBSITE</h6>
-                  <p>https://geraldinech.github.io/MyPortfolio/</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-      <footer class="page-footer">
-        <div class="footer-copyright">
-          <div class="container">
-            © 2017 Geraldine Chauca
-            <a class="grey-text text-lighten-4 right" href="#!">gchaucae@gmail.com</a>
-          </div>
-        </div>
-      </footer>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-    </body>
-  </html>
+<!DOCTYPE html>
+<html lang="en">
+<!--[if IE 7]><html lang="en" class="ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><html lang="en"><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+	<meta charset="utf-8">
+	<script src="js/lib/modernizr.js"></script>
+	
+	<!-- Portfolio -->
+	<title>Geraldine Chauca | Front-End DEveloper Jr. - Graphic Designer</title>
+	
+	<!-- Basic tags -->
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="description" content="Personal portfolio">
+	<meta name="keywords" content="portofolio, developer, designer, work, creative, Lima, Peru, digital products">
+	
+	<!-- Viewport settings -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Volkhov:400,400italic' rel='stylesheet' type='text/css'>
+	
+	<!-- Essential stylesheets -->
+	<link rel="stylesheet" href="http://pixelstuff.net/demo/magnum/css/loader.css">
+	<link rel="stylesheet" href="http://pixelstuff.net/demo/magnum/css/lib/essentials.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://pixelstuff.net/demo/magnum/css/lib/magnific-popup.css">
+	<link rel="stylesheet" href="http://pixelstuff.net/demo/magnum/css/lib/jquery.bxslider.css">
+	<link rel="stylesheet" href="http://pixelstuff.net/demo/magnum/css/lib/superslides.css">
+	
+	<!-- Main stylesheet -->
+	<link rel="stylesheet" href="http://pixelstuff.net/demo/magnum/css/style.css">
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="http://www.clker.com/cliparts/0/b/Q/6/n/8/fleur-de-lis-taupe-hi.png">
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+
+<body>
+
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+
+
+	<!-- Fullscreen content and background slider / fader -->
+	<div id="home" class="home-wrap">
+		<div id="slides">
+			<ul class="slides-container">
+
+
+				<!-- Slide 1 -->
+				<li>
+					<div class="home-content">
+						<div class="centerdiv text-white">
+							<hr>
+							<h1 class="bigtext uppercase no-margin">Geraldine Chauca</h1>
+							<h6 class="bigtext serif italic">Welcome to my personal site!</h6>
+							<hr>
+						</div>
+					</div>
+					<div style="background-image: url(img/code.jpg);" class="slides-fullscreen-img"></div>
+				</li>
+
+
+				<!-- Slide 2 -->
+				<li>
+					<div class="home-content">
+						<div class="centerdiv text-white">
+							<hr>
+							<h1 class="bigtext uppercase no-margin">Front-End Developer Jr.</h1>
+							<h6 class="bigtext serif italic">Former student of Laboratoria Bootcamp</h6>
+							<hr>
+						</div>
+					</div>
+					<div style="background-image: url('img/desk-code.jpg');" class="slides-fullscreen-img"></div>
+				</li>
+
+
+				<!-- Slide 3 -->
+				<li>
+					<div class="home-content">
+						<div class="centerdiv text-white">
+							<hr>
+							<h1 class="bigtext uppercase no-margin">Graphic Designer</h1>
+							<h6 class="bigtext serif italic">I love functional shapes and colors</h6>
+							<a class="button outline white smoothscroll" href="#introduction"></a>
+							<hr>
+						</div>
+					</div>
+					<div style="background-image: url('img/desk-book.jpg');" class="slides-fullscreen-img"></div>
+				</li>
+
+
+			</ul>
+			<nav class="slides-navigation">
+				<a class="prev" href="javascript:void(0)"></a>
+				<a class="next" href="javascript:void(0)"></a>
+			</nav>
+		</div>
+	</div>
+
+
+	<!-- Menu -->
+	<div class="main-menu fixedmenu">
+		<div class="menu-wrap">
+
+
+			<!-- Your symbolic or typographic logo -->
+			<a href="#home" class="smoothscroll"><img src="http://www.clker.com/cliparts/0/b/Q/6/n/8/fleur-de-lis-taupe-hi.png" alt="magnum logo color" width="38" height="30" class="menu-logo"></a>
+			<!--<h1><a href="#home" class="smoothscroll">Magnum</a></h1>-->
+
+
+			<!-- The menu toggle -->
+			<input type="checkbox" id="toggle" />
+			<label for="toggle" class="toggle"></label>
+
+
+			<!-- The menu items -->
+			<ul class="menu">
+				<li><a href="#home" class="smoothscroll">Home</a></li>
+				<li><a href="#work" class="smoothscroll">Projects</a></li>
+				<li><a href="#about" class="smoothscroll">About me</a></li>
+				<li><a href="#services" class="smoothscroll">What can i do</a></li>
+				<li><a href="#contact" class="smoothscroll">Find me</a></li>
+			</ul>
+
+
+		</div>
+	</div>
+
+
+	<!-- Introduction text -->
+	<section id="introduction" class="introduction">
+		<div class="row">
+			<div class="ten columns center">
+
+
+				<!-- The title -->
+				<div class="title">
+					<h1>Thank you for being here</h1>
+					<hr>
+				</div>
+
+				<!-- Text and a button -->
+				<p class="big thin">This is more that just my personal site, here you could see my work, my skills, what moves and intrigues me. As a person who is always searching new ways to learn, I can assure you our possible joined path will never be boring or unproductive.</p>
+				<p><a href="#about" class="button outline smoothscroll">Who am I?</a></p>
+
+
+			</div>
+		</div>
+	</section>
+
+
+    <!-- About me -->
+	<section id="about" class="about">
+
+
+		<!-- The title -->
+		<div class="row">
+			<div class="twelve columns title">
+				<h1>About me</h1>
+				<hr>
+			</div>
+		</div>
+
+
+		<!-- About header -->
+		<div style="background-image: url('img/Laboratoria.jpg')" class="header bottom">
+			<div class="header-center">
+				<div class="centerdiv text-white">
+
+
+					<!-- Text on the header -->
+					<h4 class="bigtext uppercase letterspace bold">A designer who knows to code</h4>
+					<h6 class="bigtext serif italic">Because keep learning is a must this days</h6>
+
+
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Circle avatar -->
+		<img src="img/profile/rising.JPG" alt="about me avatar" class="about-avatar">
+
+
+		<!-- About introduction -->
+		<div class="row">
+			<div class="ten columns center margin-bottom">
+				<h2 class="text-color">The human behind the computer</h2>
+				<p class="big thin">I'm a person who is interest in technologies that help to satisface user needs and desires. As a developer, I'm focused in think, design and create digital solutions for a specific environment always prioritizing the final users but satisfacing as well the needs of the organization that I work for.</p>
+			</div>
+		</div>
+
+
+		<!-- 3 Columns -->
+		<div class="row">
+
+
+			<!-- Column 1 -->
+			<div class="four columns">
+				<h4>Why I <i class="fa fa-heart text-color"></i> Design</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit amet mauris bibendum, ac fringilla quam eleifend. Praesent elit tellus, venenatis in lorem ac, porta accumsan sapien. Cras malesuada feugiat magnum.</p>
+			</div>
+
+
+			<!-- Column 2 -->
+			<div class="four columns">
+				<h4>Why I <i class="fa fa-thumbs-o-down text-light"></i> Coffee</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit amet mauris bibendum, ac fringilla quam eleifend. Praesent elit tellus, venenatis in lorem ac, porta accumsan sapien. Cras malesuada feugiat magnum.</p>
+			</div>
+
+
+			<!-- Column 3 -->
+			<div class="four columns">
+				<h4>My Favourite Music</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit amet mauris bibendum, ac fringilla quam eleifend. Praesent elit tellus, venenatis in lorem ac, porta accumsan sapien. Cras malesuada feugiat magnum.</p>
+			</div>
+
+
+		</div>
+	</section>
+
+
+    <!-- Services -->
+	<section id="services" class="services">
+		<div class="row">
+			<div class="twelve columns">
+
+
+				<!-- The title -->
+				<div class="title">
+					<h1>Services</h1>
+					<hr>
+				</div>
+
+
+				<!-- Slider controls -->
+				<h2 class="text-color">How may I help you today?</h2>
+				<p>
+					<a id="services-prev" href="#"><i class="fa fa-chevron-left icon arrow-next outline color attached"></i></a>
+					<a id="services-next" href="#"><i class="fa fa-chevron-right icon arrow-prev outline color attached"></i></a>
+				</p>
+
+
+			</div>
+		</div>
+
+
+		<!-- Services slider -->
+		<div class="row">
+			<div class="list_carousel">
+				<ul id="services-slider">
+
+
+					<!-- Service 1 -->
+					<li class="service-item">
+						<img src="http://pixelstuff.net/demo/magnum/images/service-branding.jpg" alt="service-branding">
+						<i class="fa fa-trophy"></i>
+						<h4>Branding</h4>
+						<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa branding.</p>
+						<h5 class="serif italic">Starting at $599,00</h5>
+						<ul>
+							<li>8 Concept Sketches</li>
+							<li>2 Premium Fonts</li>
+							<li>Free Burgers</li>
+						</ul>
+						<p><a href="#contact" class="button outline smoothscroll">Order service</a></p>
+					</li>
+
+
+					<!-- Service 2 -->
+					<li class="service-item">
+						<img src="http://pixelstuff.net/demo/magnum/images/service-graphicdesign.jpg" alt="service-graphicdesign">
+						<i class="fa fa-star"></i>
+						<h4>Graphic Design</h4>
+						<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa design.</p>
+						<h5 class="serif italic">Starting at $699,00</h5>
+						<ul>
+							<li>16 Hours Designing</li>
+							<li>Card Designs Included</li>
+							<li>Free Soda's</li>
+						</ul>
+						<p><a href="#contact" class="button outline smoothscroll">Order service</a></p>
+					</li>
+
+
+					<!-- Service 3 -->
+					<li class="service-item">
+						<img src="http://pixelstuff.net/demo/magnum/images/service-photography.jpg" alt="service-photography">
+						<i class="fa fa-camera-retro"></i>
+						<h4>Photography</h4>
+						<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa photo.</p>
+						<h5 class="serif italic">Starting at $799,00</h5>
+						<ul>
+							<li>8 Hours Shooting</li>
+							<li>Lightbox Effects</li>
+							<li>Free Candy</li>
+						</ul>
+						<p><a href="#contact" class="button outline smoothscroll">Order service</a></p>
+					</li>
+
+
+					<!-- Service 4 -->
+					<li class="service-item">
+						<img src="http://pixelstuff.net/demo/magnum/images/service-webdesign.jpg" alt="service-webdesign">
+						<i class="fa fa-desktop"></i>
+						<h4>Webdesign</h4>
+						<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa webdesign.</p>
+						<h5 class="serif italic">Starting at $899,00</h5>
+						<ul>
+							<li>24 Hours Designing</li>
+							<li>Unlimited Colors</li>
+							<li>Free Pixels</li>
+						</ul>
+						<p><a href="#contact" class="button outline smoothscroll">Order service</a></p>
+					</li>
+
+
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Featured work -->
+	<section id="work" class="featured-work">
+
+
+		<!-- The title -->
+		<div class="row">
+			<div class="twelve columns title">
+				<h1>Projects</h1>
+				<hr>
+			</div>
+		</div>
+
+		<!-- Intro text -->
+		<div class="row">
+			<div class="ten columns center">
+				<h2 class="text-color">Developing solutions</h2>
+				<p class="big thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque a itaque est impedit, voluptas quaerat, amet fugit consectetur quisquam perspiciatis nostrum modi saepe expedita! Similique, dignissimos quasi dicta doloremque ipsam!</p>
+			</div>
+		</div>
+
+
+		<!-- 3 Columns -->
+		<div class="row">
+
+
+			<!-- Column 1 -->
+			<div class="four columns">
+				<p><i class="fa fa-comments-o icon huge"></i></p>
+				<h4>The Request</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit amet mauris bibendum, ac fringilla quam eleifend. Praesent elit tellus, venenatis in lorem ac, porta accumsan sapien.</p>
+			</div>
+
+
+			<!-- Column 2 -->
+			<div class="four columns">
+				<p><i class="fa fa-lightbulb-o icon huge"></i></p>
+				<h4>The Idea</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit amet mauris bibendum, ac fringilla quam eleifend. Praesent elit tellus, venenatis in lorem ac, porta accumsan sapien.</p>
+			</div>
+
+
+			<!-- Column 3 -->
+			<div class="four columns">
+				<p><i class="fa fa-bolt icon huge"></i></p>
+				<h4>The Solution</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit amet mauris bibendum, ac fringilla quam eleifend.</p>
+				<p><a href="http://pixelstuff.net/demo/magnum/project.html" class="arrow-link">Read more</a></p>
+			</div>
+
+
+		</div>
+	</section>
+
+
+	<!-- More work -->
+	<section id="more-work" class="more-work">
+		<div class="row">
+			<div class="twelve columns margin-bottom">
+
+
+				<!-- The title -->
+				<div class="title">
+					<h1>Demos</h1>
+					<hr>
+				</div>
+
+
+			</div>
+		</div>
+
+
+		<!-- Thumbnails -->
+		<div class="row margin">
+
+
+			<!-- Portfolio thumb 1 -->
+			<div class="four columns medium-six columns small-twelve columns fade-it">
+				<div class="portfolio-thumb">
+					<a href="https://geraldinech.github.io/APIGeolocation/" target="_blank">
+						<img src="img/projects/FindMe.PNG" alt="project-find-me">
+						<i class="fa fa-camera-retro"></i>
+						<b>Find Me</b>
+						<em>Use of Google API to geolocalization</em>
+					</a>
+				</div>
+			</div>
+
+
+			<!-- Portfolio thumb 2 -->
+			<div class="four columns medium-six columns small-twelve columns fade-it">
+				<div class="portfolio-thumb">
+					<a href="http://pixelstuff.net/demo/magnum/project.html">
+						<img src="img/projects/LogIn.PNG" alt="Facebook-Log-In">
+						<i class="fa fa-trophy"></i>
+						<b>Facebook Log In</b>
+						<em>Using the tools of Facebook for Developers</em>
+					</a>
+				</div>
+			</div>
+
+
+			<!-- Portfolio thumb 3 -->
+			<div class="four columns medium-six columns small-twelve columns fade-it">
+				<div class="portfolio-thumb">
+					<a class="popup-gallery" href="http://pixelstuff.net/demo/magnum/images/portfolio-thumbnail-3.jpg">
+						<img src="img/projects/GasFinder.PNG" alt="Gas-Finder-project">
+						<i class="fa fa-font"></i>
+						<b>Gas Finder</b>
+						<em>Localization of gas stations by districts</em>
+					</a>
+				</div>
+			</div>
+
+
+			<!-- Portfolio thumb 4 -->
+			<div class="four columns medium-six columns small-twelve columns fade-it">
+				<div class="portfolio-thumb">
+					<a class="popup-youtube" href="http://www.youtube.com/watch?v=tDvBwPzJ7dY">
+						<img src="img/projects/LabCar.PNG" alt="portfolio-thumbnail-4">
+						<i class="fa fa-film"></i>
+						<b>Lab Car</b>
+						<em>Cab service, page for final users and drivers</em>
+					</a>
+				</div>
+			</div>
+
+
+			<!-- Portfolio thumb 5 
+			<div class="four columns medium-six columns small-twelve columns fade-it">
+				<div class="portfolio-thumb">
+					<a class="popup-gallery" href="http://pixelstuff.net/demo/magnum/images/portfolio-thumbnail-5.jpg">
+						<img src="http://pixelstuff.net/demo/magnum/images/portfolio-thumbnail-5.jpg" alt="portfolio-thumbnail-5">
+						<i class="fa fa-desktop"></i>
+						<b>Magnum</b>
+						<em>Branding</em>
+					</a>
+				</div>
+			</div> -->
+
+
+			<!-- Portfolio thumb 6 
+			<div class="four columns medium-six columns small-twelve columns fade-it">
+				<div class="portfolio-thumb">
+					<a class="popup-vimeo" href="http://vimeo.com/27973852">
+						<img src="http://pixelstuff.net/demo/magnum/images/portfolio-thumbnail-6.jpg" alt="portfolio-thumbnail-6">
+						<i class="fa fa-film"></i>
+						<b>Traveling</b>
+						<em>Vimeo Video</em>
+					</a>
+				</div>
+			</div> -->
+
+
+		</div>
+	</section>
+
+
+	<!-- Call to action -->
+	<section class="call-to-action">
+		<div class="header small">
+			<div class="header-center">
+				<div class="centerdiv">
+					<h5 class="bigtext serif italic text-color">If you are interest in hire me</h5>
+					<p><a href="#contact" class="button outline white smoothscroll">Find me here <i class="fa fa-smile-o"></i></a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Quotes -->
+	<section class="quote">
+		<div class="header medium">
+			<div class="header-center">
+				<div class="centerdiv text-white">
+					<ul id="quote-slider" class="bxslider">
+
+
+						<!-- Quote 1 -->
+						<li>
+							<h4 class="bigtext"><q>There's a difference between showing info and telling stories.</q></h4>
+							<h6 class="bigtext serif italic">&mdash; J. Doe, CEO Company Inc &mdash;</h6>
+						</li>
+
+
+						<!-- Quote 2 -->
+						<li>
+							<h4 class="bigtext"><q>Magnum is made to tell a story.</q></h4>
+							<h6 class="bigtext serif italic">&mdash; T. Sawyer, Freelance Developer &mdash;</h6>
+						</li>
+
+
+						<!-- Quote 3 -->
+						<li>
+							<h4 class="bigtext"><q>Design is where science and art break even</q></h4>
+							<h6 class="bigtext serif italic">&mdash; R. Mathew &mdash;</h6>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<a href="javascript:void(0)" id="quote-prev" class="bx-outer-prev"></a>
+		<a href="javascript:void(0)" id="quote-next" class="bx-outer-next"></a>
+	</section>
+
+
+	<!-- Contact -->
+	<section id="contact" class="contact">
+		<div class="row">
+			<div class="ten columns center">
+
+
+				<!-- The title -->
+				<div class="title">
+					<h1>Contact</h1>
+					<hr>
+				</div>
+
+
+				<!-- Intro text -->
+				<h2 class="text-color">Let's get in touch</h2>
+				<p class="big thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit amet mauris bibendum, ac fringilla quam eleifend. Praesent elit tellus, venenatis in lorem ac, porta accumsan sapien. Cras malesuada feugiat magnum.</p>
+
+
+			</div>
+		</div>
+		<div class="row">
+
+
+			<!-- Succes message after sending the form, see also the php file around line 87 -->
+			<div class="twelve columns">
+				<div id="message"></div>
+			</div>
+
+
+		</div>
+		<div class="row">
+
+
+			<!-- The contactform -->
+			<form method="post" action="http://pixelstuff.net/demo/magnum/contact.php" name="contactform" id="contactform">
+				<fieldset>
+					<div class="six columns">
+
+
+						<!-- Name -->
+						<label for="name" accesskey="U"><i class="fa fa-user"></i></label>
+						<input name="name" type="text" id="name" size="30" value="" />
+
+
+						<!-- Email -->
+						<label for="email" accesskey="E"><i class="fa fa-envelope-o"></i></label>
+						<input name="email" type="text" id="email" size="30" value="" />
+
+
+						<!-- Phone -->
+						<label for="phone" accesskey="P"><i class="fa fa-phone"></i></label>
+						<input name="phone" type="text" id="phone" size="30" value="" />
+
+
+					</div>
+					<div class="six columns">
+
+
+						<!-- Comments / Message -->
+						<label for="comments" accesskey="C"><i class="fa fa-comment"></i></label>
+						<textarea name="comments" id="comments"></textarea>
+
+
+						<!-- Verification -->
+						<label for="verify" accesskey="V">3 + 1 =</label>
+						<input name="verify" type="text" id="verify" size="4" value="" class="input-verify" />
+
+
+					</div>
+					<div class="twelve columns">
+
+
+						<!-- Send button -->
+						<input type="submit" class="submit" id="submit" value="Send message" />
+
+
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</section>
+
+
+	<!-- The footer -->
+	<section class="footer-two">
+		<div class="row">
+			<div class="twelve columns">
+
+
+				<!-- Back to top button -->
+				<p><a href="#home" class="smoothscroll"><i class="fa fa-chevron-up icon arrow-top"></i></a></p>
+
+
+				<!-- Social icons -->
+				<p>
+					<a href="#"><i class="fa fa-twitter icon outline light"></i></a>
+					<a href="#"><i class="fa fa-linkedin icon outline light"></i></a>
+					<a href="#"><i class="fa fa-github icon outline light"></i></a>
+					<a href="#"><i class="fa fa-facebook icon outline light"></i></a>
+					<a href="#"><i class="fa fa-dribbble icon outline light"></i></a>
+				</p>
+
+
+				<!-- Credits -->
+				<p class="text-light">Dreamed, worked and coded by <a href="https://github.com/GeraldineCh" target="blank" class="underline">Geraldine Chauca</a><br>
+				&mdash; Made with <i class="fa fa-heart text-color"></i> in Lima, Peru &mdash;</p>
+
+
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- Javascript -->
+	<script src="http://pixelstuff.net/demo/magnum/js/lib/jquery.min.js"></script>
+	<script src="http://pixelstuff.net/demo/magnum/js/lib/jquery.fittext.js"></script>
+	<script src="http://pixelstuff.net/demo/magnum/js/lib/jquery.magnific-popup.min.js"></script>
+	<script src="http://pixelstuff.net/demo/magnum/js/lib/jquery.bxslider.min.js"></script>
+	<script src="http://pixelstuff.net/demo/magnum/js/lib/jquery.sticky.js"></script>
+	<script src="http://pixelstuff.net/demo/magnum/js/lib/jquery.equal.js"></script>
+	
+	<!-- Basic functions -->
+	<script src="http://pixelstuff.net/demo/magnum/js/main.js"></script>
+	
+	<!-- Specific functions for this page -->
+	<script src="http://pixelstuff.net/demo/magnum/js/lib/jquery.superslides.min.js"></script>
+	<script src="http://pixelstuff.net/demo/magnum/js/index8.js"></script>
+	
+	<!-- Scripts for the services slider -->
+	<script src="http://pixelstuff.net/demo/magnum/js/lib/jquery.touchswipe.min.js"></script>
+	<script src="http://pixelstuff.net/demo/magnum/js/lib/jquery.caroufredsel.min.js"></script>
+	<script src="http://pixelstuff.net/demo/magnum/js/services-slider.js"></script>
+
+
+	<!-- Preloader -->
+	<script type="text/javascript">
+		//<![CDATA[
+		$(window).load(function() { // makes sure the whole site is loaded
+			$('#status').fadeOut(); // will first fade out the loading animation
+				$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+			$('body').delay(350).css({'overflow-y':'visible'});
+		})
+		//]]>
+	</script>
+
+
+</body>
+</html>
