@@ -1,3 +1,15 @@
 .skill-img {
  max-height: 200px;
 }
+
+.rect-p {
+ text-align: justify;
+}
+
+.shadow-color {
+ text-shadow: 4px 5px 3px dimgray;
+}
+
+.gray {
+ color: dimgray !important;
+}
